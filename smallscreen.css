@@ -1,0 +1,56 @@
+.BannerText {
+    font-size: 45px;
+}
+
+.nav-links txt {
+    display: none;
+}
+
+.container i {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    margin-right: 20px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+#Name {
+    display: none;
+}
+
+#SmallName {
+    display: block;
+    margin-top: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 5vh;
+    width: 13vw;
+}
+
+.ToolLogo {
+    max-width: 50vw;
+}
+
+.nav-links li:hover .dropdown-content { 
+    display: none; /* Show the dropdown when hovering over the parent */ 
+}
+
+    .imgText { 
+        flex-direction: column; /* Stack elements vertically on smaller screens */ 
+        align-items: flex-start; /* Align items to the start */ 
+    } 
+    .image-caption { 
+        margin-right: 0; /* Remove the margin on smaller screens */ 
+        font-size: 1px;
+    } 
+
+    .image { 
+        max-width: 100%; /* Make the image responsive */ 
+        height: auto; 
+    }
