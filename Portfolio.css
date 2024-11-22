@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-:root { --banner-height: 20vh; /* Define a variable for banner height */
+:root { --banner-height: 22vh; /* Define a variable for banner height */
 }
 
 .banner {
@@ -23,6 +23,15 @@
 
 }
 
+.banner b {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vh;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
 
 .BannerText {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -65,6 +74,10 @@ body {
 
 
 .bodyContainer {
+    display: flex; 
+    flex-direction: column; /* Align items in a column */ 
+    align-items: center; /* Center items horizontally */ 
+    justify-content: center;
     padding-top: calc(var(--banner-height) + 20px);
     padding-left: 30%;
     padding-right: 10%;
@@ -115,6 +128,10 @@ body {
 }
 
 .ToolLogo {
+    display: flex;
+    flex-direction: column; /* Align items in a column */ 
+    align-items: center; /* Center items horizontally */ 
+    justify-content: center;
     max-width: 300px;
     height: auto;
     margin: auto;
@@ -130,7 +147,7 @@ body {
 }
 
 html { 
-    scroll-padding-top: 28%; 
+    scroll-padding-top: 30%; 
 }
 
 b {
