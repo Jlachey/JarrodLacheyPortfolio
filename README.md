@@ -1,0 +1,1 @@
+This is simply a webpage I built to house my Social Media Security Portfolio for my class. I never actually built a full webpage before, so instead of using Google Pages, I opted to use this as an opportunity to work on my HTML and CSS skills.
