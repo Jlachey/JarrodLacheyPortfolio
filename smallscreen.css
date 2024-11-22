@@ -1,5 +1,5 @@
 .BannerText {
-    font-size: 45px;
+    font-size: 5vh;
 }
 
 .nav-links txt {
@@ -47,9 +47,8 @@ i {
     } 
     .image-caption { 
         margin-right: 0; /* Remove the margin on smaller screens */ 
-        font-size: 1px;
     } 
-
+    
     .image { 
         max-width: 100%; /* Make the image responsive */ 
         height: auto; 
