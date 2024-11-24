@@ -147,7 +147,7 @@ body {
 }
 
 html { 
-    scroll-padding-top: 30%; 
+    scroll-padding-top: 25%; 
 }
 
 b {
@@ -162,8 +162,10 @@ li {
 }
 .nav-links {
     text-align: center;
-    padding-top: 105px;
+    padding-top: 5vh;
     list-style: none;
+    padding-left: 5vh;
+    margin-left: 0;
 }
 
 i {
