@@ -60,5 +60,5 @@
     }
 
     html { 
-        scroll-padding-top: 40%; 
+        scroll-padding-top:  calc(var(--banner-height) + 50px); 
     }

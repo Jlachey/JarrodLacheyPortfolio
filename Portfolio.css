@@ -147,7 +147,7 @@ body {
 }
 
 html { 
-    scroll-padding-top: 25%; 
+    scroll-padding-top:  calc(var(--banner-height) + 25px); 
 }
 
 b {
